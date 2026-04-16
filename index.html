@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+<meta charset="UTF-8">
+<title>生日快乐</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="center">
+  <h1>欢迎，等你很久了~ 🎉</h1>
+  <button onclick="start()">开始进入</button>
+</div>
+
+<audio id="bgm" src="assets/music/bgm.mp3" loop></audio>
+
+<script>
+function start(){
+  document.getElementById('bgm').play();
+  window.location.href = "pages/game.html";
+}
+</script>
+
+</body>
+</html>
